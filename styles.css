@@ -1,0 +1,122 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general */
+body {
+    font-family: 'Helvetica', Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #eaeaea;
+}
+
+header h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #000;
+}
+
+/* Sección de Introducción */
+.intro {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.intro h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.highlight {
+    color: #000;
+    font-weight: bold;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #333;
+}
+
+/* Sección de Proyectos */
+.projects {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.project-item {
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    padding: 15px;
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+}
+
+.project-item h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #eaeaea;
+    font-size: 14px;
+    color: #888;
+}
